@@ -74,6 +74,8 @@ python main.py
 
 The script will immediately perform the login and then schedule itself to run every 24 hours.
 
+https://github.com/user-attachments/assets/19158eff-37b6-4185-8ffb-a4119e4658d4
+
 ## Debugging
 
 Logs: Check the logs/login_script.log file for detailed logs and any potential issues.
