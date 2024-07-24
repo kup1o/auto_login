@@ -44,7 +44,6 @@ def login_to_website():
     chrome_options.add_argument("--disable-dev-shm-usage")
     chrome_options.add_argument("--disable-gpu")
     chrome_options.add_argument("--disable-software-rasterizer")
-    chrome_options.add_argument("--remote-debugging-port=9222")
 
     # Path to ChromeDriver
     chrome_driver_path = '/usr/bin/chromedriver'
