@@ -21,9 +21,9 @@ This Python script automates the login process for a website using Selenium WebD
 1. **Clone the Repository**
 
    ```sh
-   git clone https://github.com/kup1o/auto_login.git
-   cd your-auto_login
+   git clone https://github.com/kup1o/auto_login.git && cd $_
    ```
+
 2. Set Up Environment
 
 Rename the .env_example file to .env and update it with your credentials and URLs:
