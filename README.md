@@ -50,7 +50,8 @@ Ensure you have Chrome and ChromeDriver installed.
 sudo apt update
 sudo apt install -y wget
 wget https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_126.0.6478.182-1_amd64.deb
-sudo apt install -y ./google-chrome-stable_current_amd64.deb
+sudo dpkg -i google-chrome-stable_126.0.6478.182-1_amd64.deb
+sudo apt install -f
 
 # Install ChromeDriver (version 126.0.6478.182)
 wget https://chromedriver.storage.googleapis.com/126.0.6478.182/chromedriver_linux64.zip
