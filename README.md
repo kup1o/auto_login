@@ -82,7 +82,7 @@ Logs: Check the `logs/login_script.log` file for detailed logs and any potential
 
 Headless Mode: If you need to see the browser window, you can disable headless mode by commenting out the `--headless` argument in the Options setup.
 
-Debug Script: For more detailed debugging, you can use the debug.py script provided in this repository. This script is configured to run in a non-headless mode and includes additional logging to help troubleshoot any issues. To run the debug script, use:
+Debug Script: For more detailed debugging, you can use the `debug.py` script provided in this repository. This script is configured to run in a non-headless mode and includes additional logging to help troubleshoot any issues. To run the debug script, use:
 
 ```
 python debug.py
