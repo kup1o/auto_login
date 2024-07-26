@@ -55,7 +55,7 @@ sudo apt install -f
 
 # Install ChromeDriver (version 126.0.6478.182)
 wget https://storage.googleapis.com/chrome-for-testing-public/126.0.6478.182/linux64/chromedriver-linux64.zip
-unzip chromedriver_linux64.zip
+unzip chromedriver-linux64.zip
 sudo mv chromedriver /usr/bin/chromedriver
 ```
 
