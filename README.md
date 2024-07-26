@@ -58,6 +58,7 @@ sudo apt-mark hold google-chrome-stable
 wget https://storage.googleapis.com/chrome-for-testing-public/126.0.6478.182/linux64/chromedriver-linux64.zip
 unzip chromedriver-linux64.zip
 sudo mv chromedriver-linux64/chromedriver /usr/local/bin/chromedriver
+rm -r chromedriver-linux64
 ```
 
 Install Python libraries using pip:
