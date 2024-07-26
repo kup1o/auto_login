@@ -11,10 +11,11 @@ This Python script automates the login process for a website using Selenium WebD
 
 ## Prerequisites
 
-- Python 3.10
+- Python `3.10`
+- Python libraries in `requirements.txt`
 - Chrome browser version `126.0.6478.182`
 - ChromeDriver version `126.0.6478.182`
-- Required Python libraries
+
 
 ## Installation
 
