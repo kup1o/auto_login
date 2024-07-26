@@ -52,6 +52,7 @@ sudo apt install -y wget
 wget https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_126.0.6478.182-1_amd64.deb
 sudo dpkg -i google-chrome-stable_126.0.6478.182-1_amd64.deb
 sudo apt install -f
+sudo apt-mark hold google-chrome-stable
 
 # Install ChromeDriver (version 126.0.6478.182)
 wget https://storage.googleapis.com/chrome-for-testing-public/126.0.6478.182/linux64/chromedriver-linux64.zip
