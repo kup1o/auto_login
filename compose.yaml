@@ -1,0 +1,16 @@
+services:
+  auto_login:
+    build: .
+    container_name: wot_auto_login
+    environment:
+      - DISPLAY=:99
+      - LOGIN_URL=${LOGIN_URL}
+      - USERNAME=${USERNAME}
+      - PASSWORD=${PASSWORD}
+      - SUCCESS_URL=${SUCCESS_URL}
+    env_file:
+      - .env
+    restart: always
+    volumes:
+      - .:/app
+      - ./logs:/app/logs
