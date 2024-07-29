@@ -19,6 +19,42 @@ This Python script automates the login process for a website using Selenium WebD
 
 ## Installation
 
+### Docker
+
+#### Clone the Repository
+
+   ```sh
+   git clone https://github.com/kup1o/auto_login.git && cd $_
+   ```
+
+#### Set Up Environment
+
+Rename the .env_example file to .env and update it with your credentials and URLs:
+
+```sh
+cp .env_example .env
+```
+
+Edit the .env file with your details:
+
+```env
+LOGIN_URL=https://example.com/login
+USERNAME=your_email@example.com
+PASSWORD=your_password
+SUCCESS_URL=https://example.com/success
+```
+
+#### Build Docker image and run container detached
+
+```sh
+docker compose up --build -d
+```
+
+### Manual
+
+> [!WARNING]
+> It's better to use Docker instead of manual installation, because Docker handles all required dependencies.
+
 #### Clone the Repository
 
    ```sh
@@ -67,6 +103,21 @@ Install Python libraries using pip:
 ```sh
 pip install -r requirements.txt
 ```
+
+If you run script in a headless environment, e.g. server, then consider installing Xvfb:
+
+```sh
+sudo apt install xvfb
+```
+
+After Xvfb installation, you should run it in the background:
+
+```sh
+Xvfb :99 -screen 0 1280x800x24 &
+```
+
+> [!TIP]
+> You can change the resolution to your desired one.
 
 ## Usage
 
